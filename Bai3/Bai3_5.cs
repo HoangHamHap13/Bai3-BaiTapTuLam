@@ -37,8 +37,7 @@ namespace GreenAcademy
 
 
 
-            Book book1 = new Book();
-            book1.BookInput();
+            
 
 
 

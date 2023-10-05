@@ -15,13 +15,13 @@ namespace GreenAcademy
         public int currentPage; 
 
         //Tạo constructor (hàm tạo) mặc định và thiết lập currentPage = 1;
-        public void CurrentPage()
+        public Book()
         {
             currentPage = 1;
         }
 
         //Tạo constructor với tất cả các tham số để khởi tạo các trường tương ứng
-        public void BookInput()
+        public Book(string author, int totalPages, string isbn, string title, int currentPage)
         {
             System.Console.WriteLine("Author: "); author = Console.ReadLine();
             System.Console.WriteLine("Total Pages: "); totalPages = Convert.ToInt32(Console.ReadLine());
